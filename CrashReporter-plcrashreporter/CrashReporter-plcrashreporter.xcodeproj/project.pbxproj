@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD7D5D471E4ABE62009F5149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D461E4ABE62009F5149 /* main.m */; };
+		AD7D5D4A1E4ABE62009F5149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D491E4ABE62009F5149 /* AppDelegate.m */; };
+		AD7D5D4D1E4ABE62009F5149 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D4C1E4ABE62009F5149 /* ViewController.m */; };
+		AD7D5D501E4ABE62009F5149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7D5D4E1E4ABE62009F5149 /* Main.storyboard */; };
+		AD7D5D521E4ABE62009F5149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7D5D511E4ABE62009F5149 /* Assets.xcassets */; };
+		AD7D5D551E4ABE62009F5149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7D5D531E4ABE62009F5149 /* LaunchScreen.storyboard */; };
+		AD7D5D601E4ABE62009F5149 /* CrashReporter_plcrashreporterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D5F1E4ABE62009F5149 /* CrashReporter_plcrashreporterTests.m */; };
+		AD7D5D6B1E4ABE62009F5149 /* CrashReporter_plcrashreporterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D6A1E4ABE62009F5149 /* CrashReporter_plcrashreporterUITests.m */; };
+		AD7D5D7A1E4ABF92009F5149 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7D5D791E4ABF92009F5149 /* CrashReporter.framework */; };
+		AD7D5D7D1E4AC034009F5149 /* CrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D7C1E4AC034009F5149 /* CrashReporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD7D5D5C1E4ABE62009F5149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD7D5D3A1E4ABE62009F5149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7D5D411E4ABE62009F5149;
+			remoteInfo = "CrashReporter-plcrashreporter";
+		};
+		AD7D5D671E4ABE62009F5149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD7D5D3A1E4ABE62009F5149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7D5D411E4ABE62009F5149;
+			remoteInfo = "CrashReporter-plcrashreporter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD7D5D421E4ABE62009F5149 /* CrashReporter-plcrashreporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrashReporter-plcrashreporter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7D5D461E4ABE62009F5149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD7D5D481E4ABE62009F5149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD7D5D491E4ABE62009F5149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD7D5D4B1E4ABE62009F5149 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD7D5D4C1E4ABE62009F5149 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD7D5D4F1E4ABE62009F5149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD7D5D511E4ABE62009F5149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD7D5D541E4ABE62009F5149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD7D5D561E4ABE62009F5149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7D5D5B1E4ABE62009F5149 /* CrashReporter-plcrashreporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrashReporter-plcrashreporterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7D5D5F1E4ABE62009F5149 /* CrashReporter_plcrashreporterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashReporter_plcrashreporterTests.m; sourceTree = "<group>"; };
+		AD7D5D611E4ABE62009F5149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7D5D661E4ABE62009F5149 /* CrashReporter-plcrashreporterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrashReporter-plcrashreporterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7D5D6A1E4ABE62009F5149 /* CrashReporter_plcrashreporterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashReporter_plcrashreporterUITests.m; sourceTree = "<group>"; };
+		AD7D5D6C1E4ABE62009F5149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7D5D791E4ABF92009F5149 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+		AD7D5D7B1E4AC034009F5149 /* CrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporter.h; sourceTree = "<group>"; };
+		AD7D5D7C1E4AC034009F5149 /* CrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashReporter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD7D5D3F1E4ABE62009F5149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D5D7A1E4ABF92009F5149 /* CrashReporter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D581E4ABE62009F5149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D631E4ABE62009F5149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD7D5D391E4ABE62009F5149 = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D441E4ABE62009F5149 /* CrashReporter-plcrashreporter */,
+				AD7D5D5E1E4ABE62009F5149 /* CrashReporter-plcrashreporterTests */,
+				AD7D5D691E4ABE62009F5149 /* CrashReporter-plcrashreporterUITests */,
+				AD7D5D431E4ABE62009F5149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD7D5D431E4ABE62009F5149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D421E4ABE62009F5149 /* CrashReporter-plcrashreporter.app */,
+				AD7D5D5B1E4ABE62009F5149 /* CrashReporter-plcrashreporterTests.xctest */,
+				AD7D5D661E4ABE62009F5149 /* CrashReporter-plcrashreporterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD7D5D441E4ABE62009F5149 /* CrashReporter-plcrashreporter */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D781E4ABF92009F5149 /* plcrashreporter */,
+				AD7D5D481E4ABE62009F5149 /* AppDelegate.h */,
+				AD7D5D491E4ABE62009F5149 /* AppDelegate.m */,
+				AD7D5D7B1E4AC034009F5149 /* CrashReporter.h */,
+				AD7D5D7C1E4AC034009F5149 /* CrashReporter.m */,
+				AD7D5D4B1E4ABE62009F5149 /* ViewController.h */,
+				AD7D5D4C1E4ABE62009F5149 /* ViewController.m */,
+				AD7D5D4E1E4ABE62009F5149 /* Main.storyboard */,
+				AD7D5D511E4ABE62009F5149 /* Assets.xcassets */,
+				AD7D5D531E4ABE62009F5149 /* LaunchScreen.storyboard */,
+				AD7D5D561E4ABE62009F5149 /* Info.plist */,
+				AD7D5D451E4ABE62009F5149 /* Supporting Files */,
+			);
+			path = "CrashReporter-plcrashreporter";
+			sourceTree = "<group>";
+		};
+		AD7D5D451E4ABE62009F5149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D461E4ABE62009F5149 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD7D5D5E1E4ABE62009F5149 /* CrashReporter-plcrashreporterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D5F1E4ABE62009F5149 /* CrashReporter_plcrashreporterTests.m */,
+				AD7D5D611E4ABE62009F5149 /* Info.plist */,
+			);
+			path = "CrashReporter-plcrashreporterTests";
+			sourceTree = "<group>";
+		};
+		AD7D5D691E4ABE62009F5149 /* CrashReporter-plcrashreporterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D6A1E4ABE62009F5149 /* CrashReporter_plcrashreporterUITests.m */,
+				AD7D5D6C1E4ABE62009F5149 /* Info.plist */,
+			);
+			path = "CrashReporter-plcrashreporterUITests";
+			sourceTree = "<group>";
+		};
+		AD7D5D781E4ABF92009F5149 /* plcrashreporter */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D791E4ABF92009F5149 /* CrashReporter.framework */,
+			);
+			path = plcrashreporter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD7D5D411E4ABE62009F5149 /* CrashReporter-plcrashreporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7D5D6F1E4ABE62009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-plcrashreporter" */;
+			buildPhases = (
+				AD7D5D3E1E4ABE62009F5149 /* Sources */,
+				AD7D5D3F1E4ABE62009F5149 /* Frameworks */,
+				AD7D5D401E4ABE62009F5149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrashReporter-plcrashreporter";
+			productName = "CrashReporter-plcrashreporter";
+			productReference = AD7D5D421E4ABE62009F5149 /* CrashReporter-plcrashreporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD7D5D5A1E4ABE62009F5149 /* CrashReporter-plcrashreporterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7D5D721E4ABE62009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-plcrashreporterTests" */;
+			buildPhases = (
+				AD7D5D571E4ABE62009F5149 /* Sources */,
+				AD7D5D581E4ABE62009F5149 /* Frameworks */,
+				AD7D5D591E4ABE62009F5149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7D5D5D1E4ABE62009F5149 /* PBXTargetDependency */,
+			);
+			name = "CrashReporter-plcrashreporterTests";
+			productName = "CrashReporter-plcrashreporterTests";
+			productReference = AD7D5D5B1E4ABE62009F5149 /* CrashReporter-plcrashreporterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD7D5D651E4ABE62009F5149 /* CrashReporter-plcrashreporterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7D5D751E4ABE62009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-plcrashreporterUITests" */;
+			buildPhases = (
+				AD7D5D621E4ABE62009F5149 /* Sources */,
+				AD7D5D631E4ABE62009F5149 /* Frameworks */,
+				AD7D5D641E4ABE62009F5149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7D5D681E4ABE62009F5149 /* PBXTargetDependency */,
+			);
+			name = "CrashReporter-plcrashreporterUITests";
+			productName = "CrashReporter-plcrashreporterUITests";
+			productReference = AD7D5D661E4ABE62009F5149 /* CrashReporter-plcrashreporterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD7D5D3A1E4ABE62009F5149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "谈Xx";
+				TargetAttributes = {
+					AD7D5D411E4ABE62009F5149 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22AC4HSXH4;
+						ProvisioningStyle = Automatic;
+					};
+					AD7D5D5A1E4ABE62009F5149 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22AC4HSXH4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD7D5D411E4ABE62009F5149;
+					};
+					AD7D5D651E4ABE62009F5149 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22AC4HSXH4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD7D5D411E4ABE62009F5149;
+					};
+				};
+			};
+			buildConfigurationList = AD7D5D3D1E4ABE62009F5149 /* Build configuration list for PBXProject "CrashReporter-plcrashreporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD7D5D391E4ABE62009F5149;
+			productRefGroup = AD7D5D431E4ABE62009F5149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD7D5D411E4ABE62009F5149 /* CrashReporter-plcrashreporter */,
+				AD7D5D5A1E4ABE62009F5149 /* CrashReporter-plcrashreporterTests */,
+				AD7D5D651E4ABE62009F5149 /* CrashReporter-plcrashreporterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD7D5D401E4ABE62009F5149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D5D551E4ABE62009F5149 /* LaunchScreen.storyboard in Resources */,
+				AD7D5D521E4ABE62009F5149 /* Assets.xcassets in Resources */,
+				AD7D5D501E4ABE62009F5149 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D591E4ABE62009F5149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D641E4ABE62009F5149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD7D5D3E1E4ABE62009F5149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D5D4D1E4ABE62009F5149 /* ViewController.m in Sources */,
+				AD7D5D4A1E4ABE62009F5149 /* AppDelegate.m in Sources */,
+				AD7D5D7D1E4AC034009F5149 /* CrashReporter.m in Sources */,
+				AD7D5D471E4ABE62009F5149 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D571E4ABE62009F5149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D5D601E4ABE62009F5149 /* CrashReporter_plcrashreporterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D621E4ABE62009F5149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D5D6B1E4ABE62009F5149 /* CrashReporter_plcrashreporterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD7D5D5D1E4ABE62009F5149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7D5D411E4ABE62009F5149 /* CrashReporter-plcrashreporter */;
+			targetProxy = AD7D5D5C1E4ABE62009F5149 /* PBXContainerItemProxy */;
+		};
+		AD7D5D681E4ABE62009F5149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7D5D411E4ABE62009F5149 /* CrashReporter-plcrashreporter */;
+			targetProxy = AD7D5D671E4ABE62009F5149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD7D5D4E1E4ABE62009F5149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7D5D4F1E4ABE62009F5149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD7D5D531E4ABE62009F5149 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7D5D541E4ABE62009F5149 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD7D5D6D1E4ABE62009F5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD7D5D6E1E4ABE62009F5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD7D5D701E4ABE62009F5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CrashReporter-plcrashreporter/plcrashreporter",
+				);
+				INFOPLIST_FILE = "CrashReporter-plcrashreporter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.txx.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD7D5D711E4ABE62009F5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CrashReporter-plcrashreporter/plcrashreporter",
+				);
+				INFOPLIST_FILE = "CrashReporter-plcrashreporter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.txx.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD7D5D731E4ABE62009F5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				INFOPLIST_FILE = "CrashReporter-plcrashreporterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Txx.CrashReporter-plcrashreporterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashReporter-plcrashreporter.app/CrashReporter-plcrashreporter";
+			};
+			name = Debug;
+		};
+		AD7D5D741E4ABE62009F5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				INFOPLIST_FILE = "CrashReporter-plcrashreporterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Txx.CrashReporter-plcrashreporterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashReporter-plcrashreporter.app/CrashReporter-plcrashreporter";
+			};
+			name = Release;
+		};
+		AD7D5D761E4ABE62009F5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				INFOPLIST_FILE = "CrashReporter-plcrashreporterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Txx.CrashReporter-plcrashreporterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CrashReporter-plcrashreporter";
+			};
+			name = Debug;
+		};
+		AD7D5D771E4ABE62009F5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				INFOPLIST_FILE = "CrashReporter-plcrashreporterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Txx.CrashReporter-plcrashreporterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CrashReporter-plcrashreporter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD7D5D3D1E4ABE62009F5149 /* Build configuration list for PBXProject "CrashReporter-plcrashreporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D5D6D1E4ABE62009F5149 /* Debug */,
+				AD7D5D6E1E4ABE62009F5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7D5D6F1E4ABE62009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-plcrashreporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D5D701E4ABE62009F5149 /* Debug */,
+				AD7D5D711E4ABE62009F5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD7D5D721E4ABE62009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-plcrashreporterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D5D731E4ABE62009F5149 /* Debug */,
+				AD7D5D741E4ABE62009F5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD7D5D751E4ABE62009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-plcrashreporterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D5D761E4ABE62009F5149 /* Debug */,
+				AD7D5D771E4ABE62009F5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD7D5D3A1E4ABE62009F5149 /* Project object */;
+}

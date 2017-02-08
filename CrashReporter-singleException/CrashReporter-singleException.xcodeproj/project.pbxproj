@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD7D5D011E4AB413009F5149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D001E4AB413009F5149 /* main.m */; };
+		AD7D5D041E4AB413009F5149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D031E4AB413009F5149 /* AppDelegate.m */; };
+		AD7D5D071E4AB413009F5149 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D061E4AB413009F5149 /* ViewController.m */; };
+		AD7D5D0A1E4AB413009F5149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7D5D081E4AB413009F5149 /* Main.storyboard */; };
+		AD7D5D0C1E4AB413009F5149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7D5D0B1E4AB413009F5149 /* Assets.xcassets */; };
+		AD7D5D0F1E4AB414009F5149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7D5D0D1E4AB414009F5149 /* LaunchScreen.storyboard */; };
+		AD7D5D1A1E4AB414009F5149 /* CrashReporter_singleExceptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D191E4AB414009F5149 /* CrashReporter_singleExceptionTests.m */; };
+		AD7D5D251E4AB414009F5149 /* CrashReporter_singleExceptionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D241E4AB414009F5149 /* CrashReporter_singleExceptionUITests.m */; };
+		AD7D5D371E4AB89B009F5149 /* SignalHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D341E4AB89B009F5149 /* SignalHandler.m */; };
+		AD7D5D381E4AB89B009F5149 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D5D361E4AB89B009F5149 /* UncaughtExceptionHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD7D5D161E4AB414009F5149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD7D5CF41E4AB413009F5149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7D5CFB1E4AB413009F5149;
+			remoteInfo = "CrashReporter-singleException";
+		};
+		AD7D5D211E4AB414009F5149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD7D5CF41E4AB413009F5149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7D5CFB1E4AB413009F5149;
+			remoteInfo = "CrashReporter-singleException";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD7D5CFC1E4AB413009F5149 /* CrashReporter-singleException.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrashReporter-singleException.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7D5D001E4AB413009F5149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD7D5D021E4AB413009F5149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD7D5D031E4AB413009F5149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD7D5D051E4AB413009F5149 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD7D5D061E4AB413009F5149 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD7D5D091E4AB413009F5149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD7D5D0B1E4AB413009F5149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD7D5D0E1E4AB414009F5149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD7D5D101E4AB414009F5149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7D5D151E4AB414009F5149 /* CrashReporter-singleExceptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrashReporter-singleExceptionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7D5D191E4AB414009F5149 /* CrashReporter_singleExceptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashReporter_singleExceptionTests.m; sourceTree = "<group>"; };
+		AD7D5D1B1E4AB414009F5149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7D5D201E4AB414009F5149 /* CrashReporter-singleExceptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrashReporter-singleExceptionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7D5D241E4AB414009F5149 /* CrashReporter_singleExceptionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashReporter_singleExceptionUITests.m; sourceTree = "<group>"; };
+		AD7D5D261E4AB414009F5149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7D5D331E4AB89B009F5149 /* SignalHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalHandler.h; sourceTree = "<group>"; };
+		AD7D5D341E4AB89B009F5149 /* SignalHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalHandler.m; sourceTree = "<group>"; };
+		AD7D5D351E4AB89B009F5149 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		AD7D5D361E4AB89B009F5149 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD7D5CF91E4AB413009F5149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D121E4AB414009F5149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D1D1E4AB414009F5149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD7D5CF31E4AB413009F5149 = {
+			isa = PBXGroup;
+			children = (
+				AD7D5CFE1E4AB413009F5149 /* CrashReporter-singleException */,
+				AD7D5D181E4AB414009F5149 /* CrashReporter-singleExceptionTests */,
+				AD7D5D231E4AB414009F5149 /* CrashReporter-singleExceptionUITests */,
+				AD7D5CFD1E4AB413009F5149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD7D5CFD1E4AB413009F5149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5CFC1E4AB413009F5149 /* CrashReporter-singleException.app */,
+				AD7D5D151E4AB414009F5149 /* CrashReporter-singleExceptionTests.xctest */,
+				AD7D5D201E4AB414009F5149 /* CrashReporter-singleExceptionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD7D5CFE1E4AB413009F5149 /* CrashReporter-singleException */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D321E4AB89B009F5149 /* crash */,
+				AD7D5D021E4AB413009F5149 /* AppDelegate.h */,
+				AD7D5D031E4AB413009F5149 /* AppDelegate.m */,
+				AD7D5D051E4AB413009F5149 /* ViewController.h */,
+				AD7D5D061E4AB413009F5149 /* ViewController.m */,
+				AD7D5D081E4AB413009F5149 /* Main.storyboard */,
+				AD7D5D0B1E4AB413009F5149 /* Assets.xcassets */,
+				AD7D5D0D1E4AB414009F5149 /* LaunchScreen.storyboard */,
+				AD7D5D101E4AB414009F5149 /* Info.plist */,
+				AD7D5CFF1E4AB413009F5149 /* Supporting Files */,
+			);
+			path = "CrashReporter-singleException";
+			sourceTree = "<group>";
+		};
+		AD7D5CFF1E4AB413009F5149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D001E4AB413009F5149 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD7D5D181E4AB414009F5149 /* CrashReporter-singleExceptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D191E4AB414009F5149 /* CrashReporter_singleExceptionTests.m */,
+				AD7D5D1B1E4AB414009F5149 /* Info.plist */,
+			);
+			path = "CrashReporter-singleExceptionTests";
+			sourceTree = "<group>";
+		};
+		AD7D5D231E4AB414009F5149 /* CrashReporter-singleExceptionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D241E4AB414009F5149 /* CrashReporter_singleExceptionUITests.m */,
+				AD7D5D261E4AB414009F5149 /* Info.plist */,
+			);
+			path = "CrashReporter-singleExceptionUITests";
+			sourceTree = "<group>";
+		};
+		AD7D5D321E4AB89B009F5149 /* crash */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D5D331E4AB89B009F5149 /* SignalHandler.h */,
+				AD7D5D341E4AB89B009F5149 /* SignalHandler.m */,
+				AD7D5D351E4AB89B009F5149 /* UncaughtExceptionHandler.h */,
+				AD7D5D361E4AB89B009F5149 /* UncaughtExceptionHandler.m */,
+			);
+			path = crash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD7D5CFB1E4AB413009F5149 /* CrashReporter-singleException */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7D5D291E4AB414009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-singleException" */;
+			buildPhases = (
+				AD7D5CF81E4AB413009F5149 /* Sources */,
+				AD7D5CF91E4AB413009F5149 /* Frameworks */,
+				AD7D5CFA1E4AB413009F5149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrashReporter-singleException";
+			productName = "CrashReporter-singleException";
+			productReference = AD7D5CFC1E4AB413009F5149 /* CrashReporter-singleException.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD7D5D141E4AB414009F5149 /* CrashReporter-singleExceptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7D5D2C1E4AB414009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-singleExceptionTests" */;
+			buildPhases = (
+				AD7D5D111E4AB414009F5149 /* Sources */,
+				AD7D5D121E4AB414009F5149 /* Frameworks */,
+				AD7D5D131E4AB414009F5149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7D5D171E4AB414009F5149 /* PBXTargetDependency */,
+			);
+			name = "CrashReporter-singleExceptionTests";
+			productName = "CrashReporter-singleExceptionTests";
+			productReference = AD7D5D151E4AB414009F5149 /* CrashReporter-singleExceptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD7D5D1F1E4AB414009F5149 /* CrashReporter-singleExceptionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7D5D2F1E4AB414009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-singleExceptionUITests" */;
+			buildPhases = (
+				AD7D5D1C1E4AB414009F5149 /* Sources */,
+				AD7D5D1D1E4AB414009F5149 /* Frameworks */,
+				AD7D5D1E1E4AB414009F5149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7D5D221E4AB414009F5149 /* PBXTargetDependency */,
+			);
+			name = "CrashReporter-singleExceptionUITests";
+			productName = "CrashReporter-singleExceptionUITests";
+			productReference = AD7D5D201E4AB414009F5149 /* CrashReporter-singleExceptionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD7D5CF41E4AB413009F5149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "谈Xx";
+				TargetAttributes = {
+					AD7D5CFB1E4AB413009F5149 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22AC4HSXH4;
+						ProvisioningStyle = Automatic;
+					};
+					AD7D5D141E4AB414009F5149 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22AC4HSXH4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD7D5CFB1E4AB413009F5149;
+					};
+					AD7D5D1F1E4AB414009F5149 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22AC4HSXH4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD7D5CFB1E4AB413009F5149;
+					};
+				};
+			};
+			buildConfigurationList = AD7D5CF71E4AB413009F5149 /* Build configuration list for PBXProject "CrashReporter-singleException" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD7D5CF31E4AB413009F5149;
+			productRefGroup = AD7D5CFD1E4AB413009F5149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD7D5CFB1E4AB413009F5149 /* CrashReporter-singleException */,
+				AD7D5D141E4AB414009F5149 /* CrashReporter-singleExceptionTests */,
+				AD7D5D1F1E4AB414009F5149 /* CrashReporter-singleExceptionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD7D5CFA1E4AB413009F5149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D5D0F1E4AB414009F5149 /* LaunchScreen.storyboard in Resources */,
+				AD7D5D0C1E4AB413009F5149 /* Assets.xcassets in Resources */,
+				AD7D5D0A1E4AB413009F5149 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D131E4AB414009F5149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D1E1E4AB414009F5149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD7D5CF81E4AB413009F5149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D5D071E4AB413009F5149 /* ViewController.m in Sources */,
+				AD7D5D381E4AB89B009F5149 /* UncaughtExceptionHandler.m in Sources */,
+				AD7D5D041E4AB413009F5149 /* AppDelegate.m in Sources */,
+				AD7D5D371E4AB89B009F5149 /* SignalHandler.m in Sources */,
+				AD7D5D011E4AB413009F5149 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D111E4AB414009F5149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D5D1A1E4AB414009F5149 /* CrashReporter_singleExceptionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7D5D1C1E4AB414009F5149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7D5D251E4AB414009F5149 /* CrashReporter_singleExceptionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD7D5D171E4AB414009F5149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7D5CFB1E4AB413009F5149 /* CrashReporter-singleException */;
+			targetProxy = AD7D5D161E4AB414009F5149 /* PBXContainerItemProxy */;
+		};
+		AD7D5D221E4AB414009F5149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7D5CFB1E4AB413009F5149 /* CrashReporter-singleException */;
+			targetProxy = AD7D5D211E4AB414009F5149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD7D5D081E4AB413009F5149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7D5D091E4AB413009F5149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD7D5D0D1E4AB414009F5149 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7D5D0E1E4AB414009F5149 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD7D5D271E4AB414009F5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD7D5D281E4AB414009F5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD7D5D2A1E4AB414009F5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				INFOPLIST_FILE = "CrashReporter-singleException/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Txx.CrashReporter-singleException";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD7D5D2B1E4AB414009F5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				INFOPLIST_FILE = "CrashReporter-singleException/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Txx.CrashReporter-singleException";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD7D5D2D1E4AB414009F5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				INFOPLIST_FILE = "CrashReporter-singleExceptionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Txx.CrashReporter-singleExceptionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashReporter-singleException.app/CrashReporter-singleException";
+			};
+			name = Debug;
+		};
+		AD7D5D2E1E4AB414009F5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				INFOPLIST_FILE = "CrashReporter-singleExceptionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Txx.CrashReporter-singleExceptionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashReporter-singleException.app/CrashReporter-singleException";
+			};
+			name = Release;
+		};
+		AD7D5D301E4AB414009F5149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				INFOPLIST_FILE = "CrashReporter-singleExceptionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Txx.CrashReporter-singleExceptionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CrashReporter-singleException";
+			};
+			name = Debug;
+		};
+		AD7D5D311E4AB414009F5149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 22AC4HSXH4;
+				INFOPLIST_FILE = "CrashReporter-singleExceptionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Txx.CrashReporter-singleExceptionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CrashReporter-singleException";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD7D5CF71E4AB413009F5149 /* Build configuration list for PBXProject "CrashReporter-singleException" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D5D271E4AB414009F5149 /* Debug */,
+				AD7D5D281E4AB414009F5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7D5D291E4AB414009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-singleException" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D5D2A1E4AB414009F5149 /* Debug */,
+				AD7D5D2B1E4AB414009F5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD7D5D2C1E4AB414009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-singleExceptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D5D2D1E4AB414009F5149 /* Debug */,
+				AD7D5D2E1E4AB414009F5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD7D5D2F1E4AB414009F5149 /* Build configuration list for PBXNativeTarget "CrashReporter-singleExceptionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D5D301E4AB414009F5149 /* Debug */,
+				AD7D5D311E4AB414009F5149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD7D5CF41E4AB413009F5149 /* Project object */;
+}
